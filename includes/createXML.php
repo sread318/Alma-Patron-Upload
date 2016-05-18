@@ -5,7 +5,7 @@
 		$xmlFile = str_replace('.csv', '.xml', $newfilename);
 		$base = "informerFile";
 
-		$target_path = "WHERE TO SAVE FILE";
+		$target_path = "FILEPATH/Informer/";
         $target_path .= basename($newfilename);
 
        if(move_uploaded_file($_FILES[$base]['tmp_name'], $target_path)) {
@@ -84,8 +84,8 @@
 44  reserve carrell Faculty/Staff
 45  Law Adj. Fac.   Faculty/Staff
 46  Law Research Asst.  Faculty/Staff
-207 Summit Institution Patron   Faculty/Staff
-216 Summit Visiting Patron Student
+207 Other Institution Patron   Faculty/Staff
+216 Other Visiting Patron Student
   */
 
 
